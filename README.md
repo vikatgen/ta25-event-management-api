@@ -5,11 +5,19 @@ Rakendus ehitatakse ülesse ticketite kaupa, kus iga ticket viib rakenduse järg
 Iga ticket sõltub varasemast ning tehakse järjekorras.
 
 #### Käivitamine
+
 `npm install` teekide paigaldamine
 
 `npm run start` serveri käivitamine
 
+`npm run lint` leiab koodist kasutamata muutujad, ohtlikud mustrid ja muud vead
+
+`npm run format` vormindab ja parandab koodistiili ja struktuuri nagu taandus, jutumärgid, reapikkused
+
+`npm run format:check` vaatab üle, et millised read parandatakse ära kui käivitada format käsk
+
 Projekti kaustastruktuur
+
 ```
 src/
 ├── event/                 ← üks domeen = üks kaust
