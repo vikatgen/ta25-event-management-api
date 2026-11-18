@@ -1,8 +1,7 @@
 {
-  "name": "ta25-event-management-api",
-  "version": "1.0.0",
-  "description": "Ehitad selle rakenduse ise, samm-sammult.",
-  "main": "index.js",
+  "name": "event-management-api",
+  "version": "0.1.0",
+  "description": "Event management and ticket system application.",
   "scripts": {
     "server": "tsx --env-file=.env src/server.ts",
     "build": "tsc",
@@ -13,9 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/vikatgen/ta25-event-management-api.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "bugs": {
     "url": "https://github.com/vikatgen/ta25-event-management-api/issues"
