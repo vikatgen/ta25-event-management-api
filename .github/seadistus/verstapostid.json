@@ -1,0 +1,46 @@
+[
+  {
+    "description": "Node, TypeScript, tooling, Postgres, Drizzle",
+    "title": "M0 – Projekti algus"
+  },
+  {
+    "description": "Better Auth, Google, GitHub, kaitstud route'id",
+    "title": "M1 – Sisselogimine"
+  },
+  {
+    "description": "Ühtne veakäsitlus",
+    "title": "M2 – Vead"
+  },
+  {
+    "description": "Ürituse CRUD, olekud, avalik osa, seeder",
+    "title": "M3 – Üritused"
+  },
+  {
+    "description": "Vitest, testandmebaas, kaetus",
+    "title": "M4 – Testid"
+  },
+  {
+    "description": "Piletitüübid ürituse all",
+    "title": "M5 – Piletitüübid"
+  },
+  {
+    "description": "Broneerimine tehingus, konkurents",
+    "title": "M6 – Tellimused"
+  },
+  {
+    "description": "Makseleht, webhook, aegumine",
+    "title": "M7 – Stripe"
+  },
+  {
+    "description": "Pilet, töödejärjekord, ürituse tühistamine",
+    "title": "M8 – Tühistamine"
+  },
+  {
+    "description": "Rollid, turvamehed, QR, skännimine",
+    "title": "M9 – Uks ja admin"
+  },
+  {
+    "description": "Turvalisus, dokumentatsioon, seeder, CI, deploy",
+    "title": "M10 – Kvaliteet"
+  }
+]

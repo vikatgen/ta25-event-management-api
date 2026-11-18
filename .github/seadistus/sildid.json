@@ -1,0 +1,52 @@
+[
+  {
+    "name": "accessibility",
+    "description": "Barrier affecting people with disabilities",
+    "color": "f143ab"
+  },
+  {
+    "name": "seadistus",
+    "description": "Projekti seadistus ja tööriistad",
+    "color": "c5def5"
+  },
+  {
+    "name": "andmebaas",
+    "description": "Skeem, migratsioon, seeder",
+    "color": "0e8a16"
+  },
+  {
+    "name": "api",
+    "description": "Route'id, controller, service, repository",
+    "color": "1d76db"
+  },
+  {
+    "name": "test",
+    "description": "Automaattestid",
+    "color": "fbca04"
+  },
+  {
+    "name": "ci",
+    "description": "GitHub Actions",
+    "color": "5319e7"
+  },
+  {
+    "name": "turvalisus",
+    "description": "Turvalisus ja piirangud",
+    "color": "b60205"
+  },
+  {
+    "name": "suurus: S",
+    "description": "Kuni ~1 tund",
+    "color": "ededed"
+  },
+  {
+    "name": "suurus: M",
+    "description": "~1–3 tundi",
+    "color": "bfbfbf"
+  },
+  {
+    "name": "suurus: L",
+    "description": "Pool päeva või rohkem",
+    "color": "8a8a8a"
+  }
+]
