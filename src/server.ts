@@ -1,8 +1,9 @@
 import app from "./app.js";
+import {env} from "./config/env.js";
 
 const PORT = 3000;
 
-const server = app.listen(PORT, (error) => {
+const server = app.listen(env.PORT, (error) => {
 	if (error) throw error;
 });
 
