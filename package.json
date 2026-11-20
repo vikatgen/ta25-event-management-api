@@ -12,7 +12,8 @@
         "format:check": "prettier --check .",
         "db:generate": "drizzle-kit generate",
         "db:migrate": "drizzle-kit migrate",
-        "db:studio": "drizzle-kit studio"
+        "db:studio": "drizzle-kit studio",
+        "auth:generate": "auth generate --config src/auth/auth.ts --output src/db/schema/auth.ts"
     },
     "repository": {
         "type": "git",
@@ -24,6 +25,8 @@
     },
     "homepage": "https://github.com/vikatgen/ta25-event-management-api#readme",
     "dependencies": {
+        "@better-auth/drizzle-adapter": "^1.7.26",
+        "better-auth": "^1.7.26",
         "drizzle-orm": "^0.45.4",
         "express": "^5.3.0",
         "pg": "^8.23.1",
@@ -33,6 +36,7 @@
         "@types/express": "^5.0.6",
         "@types/node": "^26.6.6",
         "@types/pg": "^8.23.1",
+        "auth": "1.7.26",
         "drizzle-kit": "^0.31.11",
         "oxlint": "^1.94.0",
         "prettier": "^3.10.1",
